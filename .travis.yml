@@ -17,5 +17,5 @@ install:
 
 script:
   - ./vendor/bin/phpcs
-  - ./vendor/bin/phpstan
+  - ./vendor/bin/phpstan analyze
   - ./vendor/bin/phpunit

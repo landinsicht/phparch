@@ -1,4 +1,4 @@
-# PHPArch [![Build Status](https://travis-ci.org/j6s/phparch.svg?branch=development)](https://travis-ci.org/j6s/phparch)
+# PHPArch [![Build Status](https://travis-ci.org/landinsicht/phparch.svg?branch=development)](https://travis-ci.org/landinsicht/phparch)
 
 - [What is this?](#what-is-this)
 - [Installation](#installation)
@@ -24,7 +24,7 @@ You can install PHPArch using composer.
 If you don't know what composer is then you probably don't need a library for architectural testing.
 
 ```bash
-$ composer require j6s/phparch
+$ composer require toubiz/phparch
 ```
 
 ## Simple Namespace validation
