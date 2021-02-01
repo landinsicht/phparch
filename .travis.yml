@@ -3,17 +3,9 @@ language: php
 php:
   - '7.4'
   - '8.0'
-env:
-  - COMPOSER_LOWEST=0
-  - COMPOSER_LOWEST=1
-
-matrix:
-  exclude:
-    - php: '7.3'
-      env: COMPOSER_LOWEST=1
 
 install:
-  - '[ $COMPOSER_LOWEST == 1 ] && composer update --prefer-lowest || composer install'
+  - composer install
 
 script:
   - ./vendor/bin/phpcs
